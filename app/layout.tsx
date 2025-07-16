@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
+
+/**********************************************************************************
+
+OPTIONAL TODO - YOUR OWN FONT
+
+1. Go to https://fonts.google.com/ and find a font you like
+
+2. Import it from "next/font/google" below (LINE 14)
+
+3. Overwrite the "Geist_Mono" function in the "customFont" variable below (LINE 18)
+
+**********************************************************************************/
 import { Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const customFont = Geist_Mono({
+  variable: "--your-font-of-choice",
   subsets: ["latin"],
 });
 
@@ -21,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} antialiased`}
+        className={`${customFont.variable} antialiased`}
       >
         {children}
       </body>
