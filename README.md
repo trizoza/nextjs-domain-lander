@@ -1,9 +1,11 @@
-# Dynamic landing page for all your unused domains
+# Single landing page for all your unused domains
 
-## Features:
-1. Super fast, server side rendered domain landing page written in [NextJS](https://nextjs.org/), optimized for desktops and mobile screens
-2. It uses request headers to automatically populate domain name, therefore can be reused for unlimited number of domains under one project
-3. It uses `COFFEE_URL` environment variable to allow setting your own buy me a coffee link without touching the code (or alternatively fork it and overwrite `export const COFFEE_URL` in [constants.ts](https://github.com/trizoza/nextjs-domain-lander/blob/main/app/constants.ts) file)
+## Features
+
+1. Super fast, server side rendered domain landing page written in [NextJS](https://nextjs.org/)
+2. Optimized for desktops and mobile screens
+3. It uses request headers to automatically populate domain name, therefore can be reused for unlimited number of domains under one project
+4. It uses `COFFEE_URL` environment variable to allow setting your own buy me a coffee link without touching the code (or alternatively fork it and overwrite `export const COFFEE_URL` in [constants.ts](https://github.com/trizoza/nextjs-domain-lander/blob/main/app/constants.ts) file)
 
 ## How does it look?
 
@@ -29,5 +31,7 @@ The easiest way to deploy Next.js app is to use the [Vercel Platform](https://ve
 They are the creators of Next.js and have massively generous free tier
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Who?
 
 Made with ❤️ by [Trizo](https://ko-fi.com/trizo)
