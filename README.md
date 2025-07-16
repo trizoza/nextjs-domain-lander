@@ -25,7 +25,9 @@ npm install && npm run dev
 ## Deploy on Vercel (free)
 
 The easiest way to deploy Next.js app is to use the [Vercel Platform](https://vercel.com/)
+
 They are the creators of Next.js and have massively generous free tier
+
 Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 Made with ❤️ by [Trizo](https://ko-fi.com/trizo)
