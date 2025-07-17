@@ -37,6 +37,7 @@ export default function RootLayout({
         className={`${customFont.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
